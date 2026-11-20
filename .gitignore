@@ -1,0 +1,61 @@
+HELP.md
+target/
+.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+# Local roster and OJ credentials. Configure paths with CANDIDATE_PROFILE_SEED and OJ_RESERVED_ACCOUNT_SEED.
+/src/main/resources/db/candidate_profile_excel_seed.sql
+/src/main/resources/db/oj_reserved_account_seed.sql
+
+# Local secrets (database password, admin passphrase). Never commit these.
+/config/local.properties
+/config/*.local.properties
+
+# Runtime logs and build output
+*.log
+logs/
+build.log
+run.log
+server.log
+server-err.log
+
+# OJ exported contest data (contains real student numbers, OJ accounts and submitted code)
+oj_contests_*.json
+oj_contests_*.md
+oj_user_import_request.json
+
+# Local scratch files and tool caches
+admin_served.js
+wmi-test.txt
+__pycache__/
+*.pyc
+

@@ -1,0 +1,10 @@
+# 复制本文件为 config/local.properties 后填入真实值；local.properties 已被 .gitignore 排除。
+SPRING_DATASOURCE_URL=jdbc:mysql://localhost:3306/student_login_crud?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai&useSSL=false&allowPublicKeyRetrieval=true
+SPRING_DATASOURCE_USERNAME=root
+SPRING_DATASOURCE_PASSWORD=change-me
+
+# 管理员入口口令（管理后台进入前需要输入）。务必改成足够长的随机字符串。
+ADMIN_ACCESS_PASSPHRASE=change-me-to-a-long-random-string
+
+# 手机扫码访问用的对外地址，例如 http://192.168.10.102:8080
+APP_PUBLIC_BASE_URL=
